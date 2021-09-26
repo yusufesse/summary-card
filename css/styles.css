@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Red Hat Display", sans-serif;
+  background-color: hsl(225, 100%, 94%);
+  background-image: url(/images/pattern-background-desktop.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.section-hero {
+  height: 100vh;
+}
+.summary-card {
+  box-shadow: 0 1.6rem 2.4rem rgba(0, 0, 0, 0.3);
+  border-radius: 18px;
+  overflow: hidden;
+  width: 45rem;
+}
+
+.hero-img {
+  display: block;
+}
+.summary-text-box {
+  background-color: #fff;
+  padding: 3.7rem 4.5rem;
+}
+.text-box {
+  text-align: center;
+  padding: 0 2rem;
+}
+.card-title {
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-transform: capitalize;
+  color: hsl(223, 47%, 23%);
+  margin-bottom: 1.4rem;
+}
+.card-text {
+  font-size: 1.5rem;
+  line-height: 1.7;
+  color: hsl(224, 23%, 55%);
+}
+.pricing-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.8rem;
+  border-radius: 1.8rem;
+  padding: 2.5rem;
+  margin: 2.2rem 0;
+  background-color: hsl(225, 100%, 98%);
+}
+
+.plan-name {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+  margin-bottom: 0.6rem;
+}
+.plan-cost {
+  color: hsl(224, 23%, 55%);
+}
+.btn-change:link,
+.btn-change:visited {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: hsl(245, 75%, 52%);
+  margin-left: auto;
+  cursor: pointer;
+
+  transition: all 0.3s;
+}
+.btn-change:hover,
+.btn-change:active {
+  color: hsl(224, 23%, 55%);
+  text-decoration: none;
+}
+.btn:link,
+.btn:visited {
+  display: block;
+  font-size: 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 1.2rem;
+  padding: 1.5rem;
+  font-weight: 900;
+  cursor: pointer;
+}
+.btn--pay:link,
+.btn--pay:visited {
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 98%);
+  box-shadow: 0 2rem 1.6rem rgba(128, 128, 128, 0.3);
+  transition: all 0.3s;
+}
+.btn--pay:hover,
+.btn--pay:active {
+  background-color: hsl(224, 23%, 55%);
+}
+.btn--cancel:link,
+.btn--cancel:visited {
+  color: hsl(224, 23%, 55%);
+  background: none;
+  transition: all 0.3s;
+}
+.btn--cancel:hover,
+.btn--cancel:active {
+  color: hsl(223, 47%, 23%);
+}
+/********************************/
+/*      MOBILE RESPONSIVE       */
+/*      - Breakpoint: 432px     */
+/*      - Mobile: 375px         */
+/********************************/
+@media (max-width: 27em) {
+  body {
+    background-image: url(/images/pattern-background-mobile.svg);
+  }
+  .summary-card {
+    width: 87%;
+  }
+  .hero-img {
+    text-align: center;
+    transform: translateX(-11.4%);
+  }
+  .text-box {
+    padding: 0;
+  }
+  .card-text {
+    font-size: 1.4rem;
+  }
+  .summary-text-box {
+    padding: 3.7rem 2rem 1.3rem 2rem;
+  }
+
+  .pricing-block {
+    gap: 1.7rem;
+  }
+  .pricing-plan {
+    font-size: 1.5rem;
+  }
+  .btn-change:link,
+  .btn-change:visited {
+    font-size: 1.3rem;
+  }
+  .btn:link,
+  .btn:visited {
+    font-size: 1.4rem;
+  }
+}
+
+/********************************/
+/*        HELPER CLASS          */
+/********************************/
+
+.position-absolute {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.margin-btm {
+  margin-bottom: 1.2rem;
+}
