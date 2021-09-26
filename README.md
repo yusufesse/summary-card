@@ -20,7 +20,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 I have taken on a challenge from Frontend Mentor to create an Order Summary component. This will be created using HTML & CSS. I have been provided a preview image of the summary card and my task is to re-create the design of the component and ensure that it is mobile responsive.
 
-### Screenshot
+### Screenshots
 
 Below are screenshots of the summary card component in desktop & mobile view, using firefox's developer tool
 
