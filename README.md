@@ -44,7 +44,7 @@ Below are screenshots of the summary card component in desktop & mobile view, us
 
 This task enabled me to reinforce my HTML & CSS knowledge. I have made use of a HTML5 semantic element, which I believe is good practise as they can provide the meaning & purpose of an element.
 
-This task has also reinforced my knowledge in postioning elements. There were various methods for postioning the summar card in the center of the page by using absolute positoning or making the body element (or parent container of the summary card) a flex container and centering the card to the center with align-items and justify-content properties.
+This task has also reinforced my knowledge in postioning elements. There were various methods for postioning the summary card in the center of the page by using absolute positoning or making the body element (or parent container of the summary card) a flex container and centering the card with 'align-items' and 'justify-content' properties.
 
 There are nested containers within the summary card component that were defined as a flex container to position the music icon, pricing details and the 'change' link vertically and horizontally.
 
