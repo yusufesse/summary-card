@@ -42,8 +42,6 @@ Below are screenshots of the summary card component in desktop & mobile view, us
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
 This task enabled me to reinforce my HTML & CSS knowledge. I have made use of a HTML5 semantic element, which I believe is good practise as they can provide the meaning & purpose of an element.
 
 This task has also reinforced my knowledge in postioning elements. There were various methods for postioning the summar card in the center of the page by using absolute positoning or making the body element (or parent container of the summary card) a flex container and centering the card to the center with align-items and justify-content properties.
