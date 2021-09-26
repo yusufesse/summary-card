@@ -29,7 +29,7 @@ Below are screenshots of the summary card component in desktop & mobile view, us
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://summarycard-yusuf.netlify.app/)
+- URL of Summary card solution:(https://summarycard-yusuf.netlify.app/)
 
 ## My process
 
