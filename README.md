@@ -25,11 +25,11 @@ I have taken on a challenge from Frontend Mentor to create an Order Summary comp
 Below are screenshots of the summary card component in desktop & mobile view, using firefox's developer tool
 
 ![](./screenshots/summary-card-desktop.png)
-![](./screenshots/summary-card-mobile.png)
+                                           ![](./screenshots/summary-card-mobile.png)
 
 ### Links
 
-- URL of Summary card solution:(https://summarycard-yusuf.netlify.app/)
+- URL of Summary card solution: (https://summarycard-yusuf.netlify.app/)
 
 ## My process
 
